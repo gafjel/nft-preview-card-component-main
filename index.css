@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-family: Outfit;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container{
+    box-sizing: border-box;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 400px;
+    padding: 20px 35px;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1{
+    margin: 20px 0 0 0;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.equilibrium{
+    margin: 20px 0 0 0;
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+.eth{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+
+.icon img{
+    width: 8%;
+}
+
+.icon p{
+    margin: 0 0 0 5px;
+    color: hsl(178, 100%, 50%);
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+.clock{
+    display: flex;
+    align-items: center; 
+}
+
+.days{
+    color: hsl(215, 51%, 70%);
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+.clock img{
+    margin: 0 5px 0 0;
+    width: 15%;
+}
+
+hr{
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.creation{
+    width: 70%;
+    margin: 20px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.creation img{
+    width: 13%;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.creation div{
+    margin-right: 15px;
+}
+
+.creation p{
+    color: hsl(215, 51%, 70%);
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+span{
+    color: hsl(0, 0%, 100%);
+    font-size: 0.9em;
+    font-weight: 400;
+}
