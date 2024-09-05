@@ -113,3 +113,33 @@ span{
     font-size: 0.9em;
     font-weight: 400;
 }
+
+@media screen and (max-width: 425px) {
+    body{
+        background-color: hsl(217, 54%, 11%);
+        box-sizing: border-box;
+        width: 100%;
+        padding: 20px;  
+    }
+    .container{
+        width: 90%;
+        box-sizing: border-box;
+        background-color: hsl(216, 50%, 16%);
+        margin: 10px auto;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        box-sizing: border-box;
+        background-color: hsl(217, 54%, 11%);
+    }
+    .container{
+        box-sizing: border-box;
+        width: 70%;
+        background-color: hsl(216, 50%, 16%);
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+}
